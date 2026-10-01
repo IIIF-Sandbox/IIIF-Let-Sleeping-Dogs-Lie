@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://iiif-sandbox.github.io/IIIF-Let-Sleeping-Dogs-Lie/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in IIIF-Sandbox/IIIF-Let-Sleeping-Dogs-Lie project"
+        ]
+    },
+    "items": []
+}
