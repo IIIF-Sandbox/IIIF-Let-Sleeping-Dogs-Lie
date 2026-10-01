@@ -1,0 +1,361 @@
+{
+  "@context" : [ "http://iiif.io/extensions/navplace/context.json", "http://iiif.io/api/presentation/3/context.json" ],
+  "id" : "https://IIIF-Sandbox.github.io/IIIF-Let-Sleeping-Dogs-Lie/manifests/manifest2.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Angela's Manifest" ]
+  },
+  "summary" : {
+    "en" : [ "Let Sleeping Dogs Lie" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Subject" ]
+    },
+    "value" : {
+      "en" : [ "Dogs" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Breeds" ]
+    },
+    "value" : {
+      "en" : [ "German Shepherd; Great Dane" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Number of images" ]
+    },
+    "value" : {
+      "en" : [ "2" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Image host" ]
+    },
+    "value" : {
+      "en" : [ "Internet Archive" ]
+    }
+  } ],
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "Images hosted on the Internet Archive (archive.org)" ]
+    }
+  },
+  "rights" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "behavior" : [ "continuous" ],
+  "structures" : [ {
+    "id" : "https://example.org/43efd4mgcg8-muncild5/range/top",
+    "type" : "Range",
+    "label" : {
+      "en" : [ "The Dogs" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/43efd4mgcg8-muncild5/range/vlad",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Vlad" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619",
+        "type" : "Canvas"
+      } ]
+    }, {
+      "id" : "https://example.org/43efd4mgcg8-muncild5/range/shadow",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Shadow" ]
+      },
+      "items" : [ {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg",
+        "type" : "Canvas"
+      } ]
+    } ]
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619",
+    "type" : "Canvas",
+    "height" : 5712,
+    "width" : 4284,
+    "label" : {
+      "en" : [ "Vlad" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Dog Name" ]
+      },
+      "value" : {
+        "en" : [ "Vlad the Impaler" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Prime Napping Spot" ]
+      },
+      "value" : {
+        "en" : [ "Couch" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Snorer" ]
+      },
+      "value" : {
+        "en" : [ "No" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Easily Excited" ]
+      },
+      "value" : {
+        "en" : [ "Yes" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "German Shepherd" ]
+    },
+    "annotations" : [ {
+      "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619/notes",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619/notes/ear",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "body" : {
+          "type" : "TextualBody",
+          "value" : "Cute, floppy ear",
+          "format" : "text/plain",
+          "language" : "en"
+        },
+        "target" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619#xywh=340,1930,750,870"
+      }, {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619/notes/eye",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "body" : {
+          "type" : "TextualBody",
+          "value" : "Sleeping puppy eye",
+          "format" : "text/plain",
+          "language" : "en"
+        },
+        "target" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619#xywh=2150,2780,400,400"
+      }, {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619/notes/nose",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "body" : {
+          "type" : "TextualBody",
+          "value" : "Snoop Boop",
+          "format" : "text/plain",
+          "language" : "en"
+        },
+        "target" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619#xywh=3450,3500,500,650"
+      } ]
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/vlad_20260929%2fVlad.JPG/full/268,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 357,
+      "width" : 268
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619/annotation-page/gznvfj37tqf-muncq619",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/annotation/pi5qjmdciv-muncq618",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/43efd4mgcg8-muncild5/canvas/jsv7t9qseel-muncq619",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/vlad_20260929%2fVlad.JPG/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 5712,
+          "width" : 4284,
+          "service" : [ {
+            "@id" : "https://iiif.archive.org/image/iiif/2/vlad_20260929%2fVlad.JPG",
+            "@type" : "ImageService2",
+            "profile" : "level2"
+          } ]
+        }
+      } ]
+    } ],
+    "navPlace" : {
+      "type" : "FeatureCollection",
+      "features" : [ {
+        "type" : "Feature",
+        "properties" : { },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 10.151367, 51.286829 ]
+        }
+      } ]
+    }
+  }, {
+    "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg",
+    "type" : "Canvas",
+    "height" : 5712,
+    "width" : 4284,
+    "label" : {
+      "en" : [ "Shadow" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Dog Name" ]
+      },
+      "value" : {
+        "en" : [ "Shadow Girl" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Prime Napping Spot" ]
+      },
+      "value" : {
+        "en" : [ "Human Bed" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Snorer" ]
+      },
+      "value" : {
+        "en" : [ "Yes" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Easily Excited" ]
+      },
+      "value" : {
+        "en" : [ "No" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Great Dane" ]
+    },
+    "annotations" : [ {
+      "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg/notes",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg/notes/ear",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "body" : {
+          "type" : "TextualBody",
+          "value" : "Cute, floppy ear",
+          "format" : "text/plain",
+          "language" : "en"
+        },
+        "target" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg#xywh=346,113,1235,2250"
+      }, {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg/notes/eyes",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "body" : {
+          "type" : "TextualBody",
+          "value" : "Wakeful puppy eyes",
+          "format" : "text/plain",
+          "language" : "en"
+        },
+        "target" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg#xywh=1635,943,1766,1886"
+      }, {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg/notes/nose",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "body" : {
+          "type" : "TextualBody",
+          "value" : "Snoop Boop",
+          "format" : "text/plain",
+          "language" : "en"
+        },
+        "target" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg#xywh=782,2995,1277,1104"
+      } ]
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/shadow_20260929%2fShadow.JPG/full/268,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 357,
+      "width" : 268
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg/annotation-page/3rd5ctjtnc2-muncvecg",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/43efd4mgcg8-muncild5/annotation/gn7hxrernq-muncvecg",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "Dog Name" ]
+        },
+        "summary" : {
+          "en" : [ "Shadow" ]
+        },
+        "metadata" : [ {
+          "label" : {
+            "en" : [ "Full Name" ]
+          },
+          "value" : {
+            "en" : [ "Shadow Girl" ]
+          }
+        }, {
+          "label" : {
+            "en" : [ "Prime Napping Spot" ]
+          },
+          "value" : {
+            "en" : [ "Human Bed" ]
+          }
+        }, {
+          "label" : {
+            "en" : [ "Snorer" ]
+          },
+          "value" : {
+            "en" : [ "Yes" ]
+          }
+        }, {
+          "label" : {
+            "en" : [ "Easily Excited" ]
+          },
+          "value" : {
+            "en" : [ "No" ]
+          }
+        } ],
+        "motivation" : "painting",
+        "target" : "https://example.org/43efd4mgcg8-muncild5/canvas/trhxhbmnu4-muncvecg",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/shadow_20260929%2fShadow.JPG/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 5712,
+          "width" : 4284,
+          "service" : [ {
+            "@id" : "https://iiif.archive.org/image/iiif/2/shadow_20260929%2fShadow.JPG",
+            "@type" : "ImageService2",
+            "profile" : "level2"
+          } ]
+        }
+      } ]
+    } ],
+    "navPlace" : {
+      "type" : "FeatureCollection",
+      "features" : [ {
+        "type" : "Feature",
+        "properties" : { },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 10.26123, 51.478817 ]
+        }
+      } ]
+    }
+  } ],
+  "navPlace" : {
+    "type" : "FeatureCollection",
+    "features" : [ {
+      "type" : "Feature",
+      "properties" : { },
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 10.59082, 51.091448 ]
+      }
+    } ]
+  }
+}
